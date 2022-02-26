@@ -1,4 +1,5 @@
 import React from "react";
+import {Container, Row} from "react-bootstrap";
 
 class Categories extends React.Component {
     constructor(props) {
@@ -10,9 +11,13 @@ class Categories extends React.Component {
 
     render() {
         return (
-            <div>
-                Categories
-            </div>
+            <Container>
+                <h3>Kategoriler</h3>
+                <Row>
+
+                </Row>
+            </Container>
+
         )
     }
 }
