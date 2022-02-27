@@ -1,0 +1,54 @@
+.pageContainer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1480px;
+}
+
+.pageContainerFluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1500px) {
+  .pageContainer {
+    max-width: 1360px;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .pageContainer {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pageContainer {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pageContainer {
+    max-width: 770px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pageContainer {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .pageContainer {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pageContainer {
+    max-width: 340px;
+  }
+}

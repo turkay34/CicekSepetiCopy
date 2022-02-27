@@ -5,6 +5,7 @@ import Hero from "./components/main/Hero";
 import Breadcrumb from "./components/main/Breadcrumb";
 import Footer from "./components/main/Footer";
 import ProductList from "./components/main/ProductList"
+import Opportunities from "./components/structures/Opportunities";
 
 function Layout() {
 
@@ -15,6 +16,7 @@ function Layout() {
                 <Hero/>
                 <Breadcrumb/>
                 <ProductList/>
+                <Opportunities/>
                 <Footer/>
             </BrowserRouter>
         </React.Fragment>

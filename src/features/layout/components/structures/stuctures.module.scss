@@ -1,0 +1,229 @@
+.categoryHeader {
+  font-size: 24px;
+  color: #044DC3;
+  margin-top: 1rem;
+}
+
+.categoryWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+
+  .categoryButton {
+    width: 195px;
+    border-radius: 10px;
+    border: 1px solid #E2E7E9;
+    height: 50px;
+    color: #707070;
+    font-size: 18px;
+    background: #fff;
+    outline: none;
+    margin-bottom: 12px;
+  }
+
+  .chosenCategoryButton {
+    width: 195px;
+    border-radius: 10px;
+    border: 1px solid #E2E7E9;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    background: #044DC3;
+    outline: none;
+    margin-bottom: 12px;
+  }
+}
+
+.divider {
+  height: 2px;
+  background-color: #d7d8d9;
+  margin: 30px 0;
+}
+
+.opportunityWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .opportunityWrapperDelivery {
+    background-color: #FFEAE8;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    max-height: 152px;
+  }
+
+  .opportunityWrapperDiscountPresent {
+    background-color: #E8F1FF;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 152px;
+  }
+
+  .opportunityWrapperDiscountStationery {
+    background-color: #E2F7E1;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+    max-height: 152px;
+  }
+
+  .opportunityInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+
+    button {
+      width: 121px;
+      height: 30px;
+      background-color: #fff;
+      border-radius: 15px;
+      outline: none;
+      border: none;
+      font-size: 13px;
+      padding: 7px 14px;
+      color: #E64E41;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .opportunityText {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .categoryWrapper {
+    .categoryButton, .chosenCategoryButton {
+      width: 180px;
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .categoryWrapper {
+    .categoryButton, .chosenCategoryButton {
+      width: 150px;
+    }
+  }
+  .opportunityWrapper {
+    align-items: center;
+
+    .opportunityText {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .categoryWrapper {
+    .categoryButton, .chosenCategoryButton {
+      width: 130px;
+      font-size: 14px;
+    }
+  }
+  .opportunityWrapper {
+    justify-content: center;
+
+    .opportunityWrapperDelivery, .opportunityWrapperDiscountPresent, .opportunityWrapperDiscountStationery {
+      margin-bottom: 12px;
+
+      img {
+        max-width: 100px;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .opportunityInfo {
+      margin-left: 15px;
+    }
+
+    .opportunityText {
+      font-size: 14px;
+    }
+  }
+  .opportunityContainer {
+    max-width: 100% !important;
+    padding: 0 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .categoryWrapper {
+    .categoryButton, .chosenCategoryButton {
+      width: 100px;
+      font-size: 12px;
+    }
+  }
+  .opportunityWrapper {
+    flex-wrap: wrap;
+    .opportunityWrapperDelivery, .opportunityWrapperDiscountPresent, .opportunityWrapperDiscountStationery {
+      margin: 12px 10px;
+      width: 402px;
+      img {
+        max-height: 90px;
+        width: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .categoryWrapper {
+    .categoryButton, .chosenCategoryButton {
+      width: 85px;
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .categoryWrapper {
+    .categoryButton, .chosenCategoryButton {
+      width: 80px;
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .categoryWrapper {
+    .categoryButton, .chosenCategoryButton {
+      width: 100px;
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .opportunityWrapper {
+    .opportunityWrapperDelivery, .opportunityWrapperDiscountPresent, .opportunityWrapperDiscountStationery {
+      max-width: 300px;
+    }
+  }
+}

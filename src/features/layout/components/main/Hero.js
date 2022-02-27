@@ -1,15 +1,15 @@
 import React from "react";
 import classes from "./main.module.scss";
-import {Container} from "react-bootstrap";
+import layout from "../../../../assets/sass/layout.module.scss";
 
 class Hero extends React.Component {
     render() {
         return (
-            <Container className={classes.headerBanner} fluid>
-                <Container className={classes.bannerTextWrapper}>
+            <div className={`${layout.pageContainerFluid} ${classes.headerBanner}`} fluid>
+                <div className={`${layout.pageContainer} ${classes.bannerTextWrapper}`}>
                     <h1>ÇiçekSepeti</h1>
-                </Container>
-            </Container>
+                </div>
+            </div>
         )
     }
 }

@@ -1,13 +1,12 @@
 import React from "react";
 import classes from "./main.module.scss";
-import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Link from '@mui/material/Link';
+import layout from "../../../../assets/sass/layout.module.scss";
 import {Container} from "react-bootstrap";
 
 class Breadcrumb extends React.Component {
     render() {
         return (
-            <Container>
+            <div className={layout.pageContainer}>
                 <nav className={classes.breadCrumb}>
                     <ol>
                         <li>
@@ -27,7 +26,7 @@ class Breadcrumb extends React.Component {
                         </li>
                     </ol>
                 </nav>
-            </Container>
+            </div>
         )
     }
 }
