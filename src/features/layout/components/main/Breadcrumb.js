@@ -8,16 +8,25 @@ class Breadcrumb extends React.Component {
     render() {
         return (
             <Container>
-                <Breadcrumbs aria-label="breadcrumb">
-                    <Link underline="hover" className={classes.breadcrumbLink} href="/">
-                        Ciceksepeti Market
-                    </Link>
-                    <Link underline="hover" className={classes.breadcrumbLink} href="/"
-                    >
-                        İstanbul
-                    </Link>
-                    <p className={classes.breadcrumbLastItem}>Ciceksepeti Breadcrumb</p>
-                </Breadcrumbs>
+                <nav className={classes.breadCrumb}>
+                    <ol>
+                        <li>
+                            <a href="/" className={classes.breadCrumbItem}>Ciceksepeti Market</a>
+                        </li>
+                        <li className={classes.breadCrumbSeparator}>
+                            >
+                        </li>
+                        <li>
+                            <a href="/" className={classes.breadCrumbItem}>Istanbul</a>
+                        </li>
+                        <li className={classes.breadCrumbSeparator}>
+                            >
+                        </li>
+                        <li>
+                            <a href="/" className={classes.breadCrumbLastItem}>CicekSepetiBreadCrumb</a>
+                        </li>
+                    </ol>
+                </nav>
             </Container>
         )
     }

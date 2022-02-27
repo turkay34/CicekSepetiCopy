@@ -64,16 +64,34 @@
   }
 }
 
-.breadcrumbLink {
-  font-size: 13px;
-  color: #555555 !important;
-  &:hover {
-    color: #185ba5 !important;
-  }
-}
-
-.breadcrumbLastItem {
-  color: #51B549;
-  padding: 0;
+.breadCrumb {
   margin: 0;
+  font-size: 13px;
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    .breadCrumbItem {
+      font-size: inherit;
+      text-decoration: none;
+      color: #555555;
+      &:hover {
+        color: #185ba5;
+      }
+    }
+    .breadCrumbSeparator {
+      margin-left: 8px;
+      margin-right: 8px;
+      user-select: none;
+    }
+    .breadCrumbLastItem {
+      color: #51B549;
+      text-decoration: none;
+      font-size: inherit;
+      cursor: default;
+    }
+  }
 }
