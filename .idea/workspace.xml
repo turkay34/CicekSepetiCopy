@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a3c473be-5ffd-4f66-9f0b-198185b7c61c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/layout/components/main/Breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/main/Breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/layout.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/layout/components/main/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/main/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/layout/components/main/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/main/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/layout/components/main/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/main/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/layout/components/main/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/main/ProductList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/layout/components/main/main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/main/main.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/layout/components/structures/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/structures/Categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/layout/components/structures/Opportunities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/structures/Opportunities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/layout/components/ui/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/layout/components/ui/Product.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +68,7 @@
       <workItem from="1645007084631" duration="1053000" />
       <workItem from="1645881313659" duration="9715000" />
       <workItem from="1645957004996" duration="23013000" />
+      <workItem from="1646040719360" duration="9937000" />
     </task>
     <servers />
   </component>

@@ -38,6 +38,9 @@
 @media screen and (max-width: 768px) {
   .pageContainer {
     max-width: 650px;
+    h2, h3, h4 {
+      margin-left: 12px;
+    }
   }
 }
 
